@@ -1,4 +1,19 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<header>
+  <h1>GitHub API</h1>
+</header>
+
+<section>
+  <h2>Pesquisa</h2>
+
+  <form action="">
+    <div class="input-group">
+      <label for="nome-usuario">Usuário Github</label>
+      <input
+        type="text"
+        name="nome-usuario"
+        required
+        [(ngModel)]="nomeDeUsuario"
+      />
+    </div>
+  </form>
+</section>
